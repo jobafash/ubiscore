@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import styles from "./Signup.module.scss";
-import { ReactComponent as EllipseIcon } from "../../assets/images/Ellipse 1.svg";
-import { ReactComponent as VectorIcon } from "../../assets/images/Vector 131.svg";
-import { ReactComponent as UbiscoreLogo } from "../../assets/images/ubiscore-logo.svg";
-import { ReactComponent as StepperIcon } from "../../assets/images/stepper.svg";
-import Input from "../../components/input/Input";
-import Select from "../../components/select/Select";
-import Checkbox from "../../components/checkbox/Checkbox";
+import { ReactComponent as EllipseIcon } from "assets/images/Ellipse 1.svg";
+import { ReactComponent as VectorIcon } from "assets/images/Vector 131.svg";
+import { ReactComponent as UbiscoreLogo } from "assets/images/ubiscore-logo.svg";
+import { ReactComponent as StepperIcon } from "assets/images/stepper.svg";
+import Input from "components/input/Input";
+import Select from "components/select/Select";
+import Checkbox from "components/checkbox/Checkbox";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
 
@@ -116,11 +116,11 @@ const SignUp = () => {
                       />
 
                       <Select label="How did you hear about us?" name="jobType">
-                        <option value="">How you heard about us</option>
+                        <option value="">Select one</option>
                         <option value="Google ad">Google Ad</option>
                         <option value="twitter">Twitter</option>
                         <option value="linkedin">LinkedIn</option>
-                        <option value="indeed">Indeed</option>
+                        <option value="indeed">Facebook</option>
                       </Select>
 
                       <Checkbox name="acceptedTerms">
