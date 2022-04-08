@@ -1,0 +1,45 @@
+.inputSection {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 1.8rem;
+  position: relative;
+}
+
+.inputLabel {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  position: absolute;
+  background: #fff;
+  top: -0.3rem;
+  padding: 0px 6px;
+  left: 0.8rem;
+  color: #999bac;
+}
+
+.textInput {
+  border: 1px solid #d6d8dc;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #101525;
+  width: 100%;
+}
+.error {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  margin-top: 10px;
+  color: #ff939c;
+}

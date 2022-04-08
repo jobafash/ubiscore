@@ -1,0 +1,19 @@
+.checkbox {
+  margin-top: 20px;
+}
+
+.checkboxInput {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.error {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* or 21px */
+  margin-top: 10px;
+  color: #ff939c;
+}
